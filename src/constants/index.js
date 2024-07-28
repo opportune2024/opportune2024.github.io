@@ -1,25 +1,39 @@
 export const navLinks = [
     {
-      id: 'about',
-      title: 'About',
+      id: 'internships',
+      title: 'Internships',
     },
     {
-      id: 'projects',
-      title: 'Projects',
+      id: 'externships',
+      title: 'Externships',
     },
     {
-      id: 'contact',
-      title: 'Contact',
+      id: 'bootcamps',
+      title: 'Bootcamp',
+    },
+    {
+        id: 'certifications',
+        title: 'Certifications',
+    },
+    {
+        id: 'jobs',
+        title: 'Jobs',
     },
 ];
 
-const internship = [
+const internships = [
+    {
+        url: '',
+    },
     {
         url: '',
     },
 ];
 
-const externship =[
+const externships =[
+    {
+        url: '',
+    },
     {
         url: '',
     },
@@ -29,16 +43,21 @@ const jobs = [
     {
         url: '',
     },
-];
-
-const bootcamp = [
     {
         url: '',
     },
 ];
 
-const certificate = [
+const bootcamps = [
     {
         url: '',
     },
 ];
+
+const certificates = [
+    {
+        url: '',
+    },
+];
+
+export {navLinks, internships, externships, bootcamps, certificates};
