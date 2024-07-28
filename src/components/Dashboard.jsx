@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -171,7 +172,7 @@ const Dashboard = () => {
           ))}
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box component="main" sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', height: '100%' }}>
         <DrawerHeader />
         <Outlet />
       </Box>
