@@ -103,14 +103,6 @@ const iconsMap = {
     BusinessCenterIcon: <BusinessCenterIcon />,
 };
 
-const componentsMap = {
-    Internships: <Internships />,
-    Externships: <Externships />,
-    Bootcamps: <Bootcamps />,
-    Certifications: <Certifications />,
-    Jobs: <Jobs />,
-};
-
 const Dashboard = () => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -156,6 +148,8 @@ const Dashboard = () => {
           {navLinks.map((nav) => (
             <ListItem key={nav.id} disablePadding sx={{ display: 'block' }}>
               <ListItemButton
+                component={Link}
+                to={nav.path}
                 sx={{
                   minHeight: 48,
                   justifyContent: open ? 'initial' : 'center',
@@ -169,7 +163,7 @@ const Dashboard = () => {
                     justifyContent: 'center',
                   }}
                 >
-                {iconsMap[nav.icon]}
+                  {iconsMap[nav.icon]}
                 </ListItemIcon>
                 <ListItemText primary={nav.title} sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -179,15 +173,10 @@ const Dashboard = () => {
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
-        <Typography paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        </Typography>
-        <Typography paragraph>
-          Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
-        </Typography>
+        <Outlet />
       </Box>
     </Box>
   );
-}
+};
 
 export default Dashboard;

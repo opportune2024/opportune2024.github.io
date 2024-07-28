@@ -1,10 +1,10 @@
 import React from 'react';
-import { internships } from '../constants';
+import { bootcamps } from '../constants';
 
-const Internships = () => {
+const Bootcamps = () => {
   return (
     <div className="">
-      {internships.map((internship) => (
+      {bootcamps.map((bootcamp) => (
         <a
           key={social.name}
           href={social.url}
@@ -23,4 +23,4 @@ const Internships = () => {
   );
 };
 
-export default Internships;
+export default Bootcamps;
