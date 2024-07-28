@@ -172,7 +172,7 @@ const Dashboard = () => {
           ))}
         </List>
       </Drawer>
-      <Box component="main" sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', height: '100%' }}>
+      <Box component="span" sx={{ flexGrow: 1, p: 3 , height: '100vh', paddingBottom:'100%'}}>
         <DrawerHeader />
         <Outlet />
       </Box>

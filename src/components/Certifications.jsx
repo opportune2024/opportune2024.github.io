@@ -2,7 +2,6 @@ import React from 'react';
 import { certificates } from '../constants';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
 import Link from '@mui/material/Link';
 
 
