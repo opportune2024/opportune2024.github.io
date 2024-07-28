@@ -103,6 +103,14 @@ const iconsMap = {
     BusinessCenterIcon: <BusinessCenterIcon />,
 };
 
+const componentsMap = {
+    Internships: <Internships />,
+    Externships: <Externships />,
+    Bootcamps: <Bootcamps />,
+    Certifications: <Certifications />,
+    Jobs: <Jobs />,
+};
+
 const Dashboard = () => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);

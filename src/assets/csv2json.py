@@ -7,11 +7,11 @@ def csv_to_json(csv_file_path, json_file_path):
         reader = csv.reader(csvfile)
         for row in reader:
             job = {
-                "Job Title": row[0],
-                "Company": row[1],
-                "Location": row[2],
-                "Role": row[3],
-                "Application Link": row[4]
+                "job_title": row[0],
+                "company": row[1],
+                "location": row[2],
+                "role": row[3],
+                "application_link": row[4]
             }
             data.append(job)
     

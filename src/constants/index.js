@@ -1,8 +1,3 @@
-import WorkIcon from '@mui/icons-material/Work';
-import SchoolIcon from '@mui/icons-material/School';
-import ComputerIcon from '@mui/icons-material/Computer';
-import VerifiedIcon from '@mui/icons-material/Verified';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 
 const navLinks = [
     {
