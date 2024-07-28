@@ -1,27 +1,38 @@
-export const navLinks = [
+import WorkIcon from '@mui/icons-material/Work';
+import SchoolIcon from '@mui/icons-material/School';
+import ComputerIcon from '@mui/icons-material/Computer';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+
+const navLinks = [
     {
       id: 'internships',
       title: 'Internships',
+      icon: 'WorkIcon',
     },
     {
       id: 'externships',
       title: 'Externships',
+      icon: 'SchoolIcon',
     },
     {
       id: 'bootcamps',
-      title: 'Bootcamp',
+      title: 'Bootcamps',
+      icon: 'ComputerIcon',
     },
     {
-        id: 'certifications',
-        title: 'Certifications',
+      id: 'certifications',
+      title: 'Certifications',
+      icon: 'VerifiedIcon',
     },
     {
-        id: 'jobs',
-        title: 'Jobs',
+      id: 'jobs',
+      title: 'Jobs',
+      icon: 'BusinessCenterIcon',
     },
 ];
 
-const internship = [
+const internships = [
     {
         url: 'https://careers.jpmorgan.com/us/en/students/programs/software-engineer-summer?search=&tags=location__Americas__UnitedStatesofAmerica',
     },
@@ -29,7 +40,7 @@ const internship = [
         url: 'https://www.ixl.com/company/careers?gh_jid=7535510002&utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
     },
     {
-        url: 'https://careers.snowflake.com/us/en/job/SNCOUS7559273002EXTERNALENUS/Data-Scientist-Intern-Fall-2024?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire,
+        url: 'https://careers.snowflake.com/us/en/job/SNCOUS7559273002EXTERNALENUS/Data-Scientist-Intern-Fall-2024?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
     },
     {
         url: 'https://amazon.jobs/en/jobs/2644301/software-development-engineer-2024-us',
@@ -74,7 +85,7 @@ const internship = [
         url: 'https://www.ixl.com/company/careers?gh_jid=7535510002&utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
     },
     {
-        url: 'https://careers.snowflake.com/us/en/job/SNCOUS7559273002EXTERNALENUS/Data-Scientist-Intern-Fall-2024?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire,
+        url: 'https://careers.snowflake.com/us/en/job/SNCOUS7559273002EXTERNALENUS/Data-Scientist-Intern-Fall-2024?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
     },
     {
         url: 'https://amazon.jobs/en/jobs/2644301/software-development-engineer-2024-us',
@@ -114,7 +125,7 @@ const internship = [
     },
 ];
 
-const externship =[
+const externships =[
     {
         url: 'https://www.theforage.com/',
     },
