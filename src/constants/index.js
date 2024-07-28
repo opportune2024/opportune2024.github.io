@@ -1,15 +1,23 @@
 export const navLinks = [
     {
-      id: 'about',
-      title: 'About',
+      id: 'internships',
+      title: 'Internships',
     },
     {
-      id: 'projects',
-      title: 'Projects',
+      id: 'externships',
+      title: 'Externships',
     },
     {
-      id: 'contact',
-      title: 'Contact',
+      id: 'bootcamps',
+      title: 'Bootcamp',
+    },
+    {
+        id: 'certifications',
+        title: 'Certifications',
+    },
+    {
+        id: 'jobs',
+        title: 'Jobs',
     },
 ];
 
@@ -59,9 +67,57 @@ const internship = [
     {
         url: 'https://www.tesla.com/careers/search/job/internship-embedded-systems-software-engineer-vehicle-firmware-fall-2024-222189',
     },
+    {
+        url: 'https://careers.jpmorgan.com/us/en/students/programs/software-engineer-summer?search=&tags=location__Americas__UnitedStatesofAmerica',
+    },
+    {
+        url: 'https://www.ixl.com/company/careers?gh_jid=7535510002&utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
+    },
+    {
+        url: 'https://careers.snowflake.com/us/en/job/SNCOUS7559273002EXTERNALENUS/Data-Scientist-Intern-Fall-2024?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire,
+    },
+    {
+        url: 'https://amazon.jobs/en/jobs/2644301/software-development-engineer-2024-us',
+    },
+    {
+        url: 'https://amazon.jobs/en/jobs/2620668/hardware-development-engineer-fall-internship-2024-us',
+    },
+    {
+        url: 'https://netflix.eightfold.ai/careers?query=intern&location=united%20states&pid=790298013546&domain=netflix.com&sort_by=relevance&triggerGoButton=false&show_multiple=false#apply',
+    },
+    {
+        url: 'https://jobs.careers.microsoft.com/global/en/job/1695161/Research-Intern---AI-Infrastructure',
+    },
+    {
+        url: 'https://jobs.careers.microsoft.com/global/en/job/1695206/Research-Intern---AI-driven-System-and-Database-Design',
+    },
+    {
+        url: 'https://careers.tiktok.com/position/7394666581098039602/detail?utm_source=skillsire&utm_medium=skillsire&utm_campaign=skillsire&source=skillsire&ref=skillsire',
+    },
+    {
+        url: 'https://www.google.com/about/careers/applications/jobs/results/83484176157680326-software-engineering-intern-summer-2025?target_level=INTERN_AND_APPRENTICE',
+    },
+    {
+        url: 'https://www.citadel.com/careers/details/quantitative-research-analyst-2025-intern-us-2/',
+    },
+    {
+        url: 'https://www.citadel.com/careers/details/software-engineer-2025-intern-us-2/',
+    },
+    {
+        url: 'https://www.tesla.com/careers/search/job/internship-android-developer-mobile-software-fall-2024-224329',
+    },
+    {
+        url: 'https://www.tesla.com/careers/search/job/internship-energy-optimization-software-fall-2024-223929',
+    },
+    {
+        url: 'https://www.tesla.com/careers/search/job/internship-embedded-systems-software-engineer-vehicle-firmware-fall-2024-222189',
+    },
 ];
 
 const externship =[
+    {
+        url: 'https://www.theforage.com/',
+    },
     {
         url: 'https://www.theforage.com/',
     },
@@ -173,7 +229,7 @@ const jobs = [
    
 ];
 
-const bootcamp = [
+const bootcamps = [
     {
         url: 'https://www.theodinproject.com/',
     },
@@ -188,7 +244,7 @@ const bootcamp = [
     },
 ];
 
-const certificate = [
+const certificates = [
     {
         url: 'https://www.coursera.org/',
     },
@@ -196,3 +252,5 @@ const certificate = [
         url: 'https://www.udemy.com/',
     },
 ];
+
+export {navLinks, internships, externships, bootcamps, certificates};
